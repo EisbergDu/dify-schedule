@@ -2,7 +2,7 @@ name: Auto
 
 on:
   schedule:
-    - cron: "0 */4 * * *" # 每4小时运行一次
+    - cron: "0 1,5,9,13,17,21 * * 1-5" # 每4小时运行一次
   workflow_dispatch:
 
 env:
